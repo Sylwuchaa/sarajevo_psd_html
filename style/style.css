@@ -1,0 +1,122 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 10px;   
+}
+
+.header {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../img/v5hlb8nucl.png");
+    background-size: cover;
+    background-position: top;
+    position: relative;
+
+    clip-path: polygon(0 0, 100% 0, 100% 75vh,  0 100%);
+}
+
+.logo-brand {
+    position: absolute;
+    top: 2.3rem;
+    left: 9.8rem;
+
+}
+/* .logo {
+    width: 9rem;
+    height: 1.9rem;
+} */
+
+.navigation {
+    width: 100vw;
+    height: 5.3rem;
+    background-image: url("../img/rectangle-2.png");
+    background-position: cover;
+}
+
+/* .list-items {
+    display: inline-block;
+    text-decoration: none;
+
+} */
+.list-items {
+    position: absolute;
+    top: 2.5rem;
+    right: 9.9rem;
+}
+
+.navigation .list-items ul li {
+    display: inline-block;
+    text-decoration: none;
+    padding-right: 1.8rem;
+    font-size: 1.0rem;
+    color: white;
+    letter-spacing: 0.081rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+.title {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 6.2rem;
+}
+.blue-span {
+    color: #4c76ff;
+}
+
+.sub-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    color: white;
+    font-size: 3.3rem;
+    font-weight: 400;
+    padding-top: 1.4rem;
+
+}
+
+.text {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 400;
+    padding-top: 1.4rem;
+}
+
+.default-line-left {
+    position: absolute;
+    top: 35.4rem;
+    left: 34rem;
+    width: 3.1rem;
+    float: left;
+    border-width: 0.04rem;
+    border-color: #4c76ff;
+}
+
+.default-line-right {
+    position: absolute;
+    top: 35.4rem;
+    right: 34rem;
+    width: 3.1rem;
+    float: right;
+    border-width: 0.04rem;
+    border-color: #4c76ff;
+}
+
+
